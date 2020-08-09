@@ -6,6 +6,12 @@ export const useStyles = createUseStyles({
     display: ({showComments}) => showComments ? 'block' : 'none',
     position: 'relative',
   },
+  dropdownWrapper: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    margin: '10px 0',
+  },
   resetButton: {
     position: 'absolute',
     right: '0px',

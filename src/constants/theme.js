@@ -12,4 +12,5 @@ export const Theme = {
   postWrapperBoxShadow: '0 6px 10px 0 rgba(0,0,0,0.14)',
   redditNameColor: 'rgba(88,88,88,0.87)',
   scoreColor: '#2C2C2C',
+  dropdownListItemColor: '#cacaca',
 };

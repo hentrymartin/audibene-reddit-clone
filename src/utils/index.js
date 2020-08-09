@@ -49,8 +49,16 @@ export const organizeComments = (comments) => {
   return commentsMap[0];
 };
 
-export const onProcessComments = (comments = [], deletedComments = []) => {
+export const onProcessComments = (comments = [], deletedComments = [], sortOrder) => {
+  const sort = sortOrder.value;
   return comments
   .filter(comment => !deletedComments.includes(comment.id))
-  .sort((a, b) => new Date(b.created_utc) - new Date(a.created_utc));
+  .sort((a, b) => {
+    let value = new Date(b.created_utc) - new Date(a.created_utc);
+    if (sort === 'oldest') {
+      value = new Date(a.created_utc) - new Date(b.created_utc);
+    }
+
+    return value;
+  });
 };

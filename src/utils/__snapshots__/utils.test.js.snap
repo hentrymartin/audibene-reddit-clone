@@ -1,0 +1,814 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utility function tests Snapshot test for organize comments function 1`] = `
+Array [
+  Object {
+    "author": "RandomName01",
+    "body": "Bruh",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Bruh&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570693670,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35vz2f",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35vz2f/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 1,
+  },
+  Object {
+    "author": "shantanu011",
+    "body": "97% Disagree it's the most unpopular opinion I've seen here after that guy who wanted to be pregnant",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;97% Disagree it&amp;#39;s the most unpopular opinion I&amp;#39;ve seen here after that guy who wanted to be pregnant&lt;/p&gt;
+&lt;/div&gt;",
+    "children": Array [
+      Object {
+        "author": "ShitOnMyArsehole",
+        "body": "Or the guy who likes sleeping in jeans
+
+Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap",
+        "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Or the guy who likes sleeping in jeans&lt;/p&gt;
+
+&lt;p&gt;Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap&lt;/p&gt;
+&lt;/div&gt;",
+        "children": Array [
+          Object {
+            "author": "nikithb",
+            "body": "Or the guy who eats his cereal with water",
+            "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Or the guy who eats his cereal with water&lt;/p&gt;
+&lt;/div&gt;",
+            "children": Array [
+              Object {
+                "author": "Sazzybee",
+                "body": "Good lord, I wanted to down vote this but realised you're the messenger, we don't shoot the messenger",
+                "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Good lord, I wanted to down vote this but realised you&amp;#39;re the messenger, we don&amp;#39;t shoot the messenger&lt;/p&gt;
+&lt;/div&gt;",
+                "created_utc": 1570711829,
+                "depth": 3,
+                "downs": 0,
+                "id": "t1_f36ge9a",
+                "parent_id": "t1_f369ye5",
+                "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36ge9a/",
+                "subreddit": "unpopularopinion",
+                "subreddit_name_prefixed": "r/unpopularopinion",
+                "ups": 286,
+              },
+            ],
+            "created_utc": 1570709099,
+            "depth": 2,
+            "downs": 0,
+            "id": "t1_f369ye5",
+            "parent_id": "t1_f35y9gp",
+            "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f369ye5/",
+            "subreddit": "unpopularopinion",
+            "subreddit_name_prefixed": "r/unpopularopinion",
+            "ups": 551,
+          },
+          Object {
+            "author": "bellowingbullfinches",
+            "body": "Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.",
+            "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.&lt;/p&gt;
+&lt;/div&gt;",
+            "children": Array [
+              Object {
+                "author": "ShitOnMyArsehole",
+                "body": "Yeah but you don't purposely go to bed in jeans like the poster did",
+                "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Yeah but you don&amp;#39;t purposely go to bed in jeans like the poster did&lt;/p&gt;
+&lt;/div&gt;",
+                "created_utc": 1570711069,
+                "depth": 3,
+                "downs": 0,
+                "id": "t1_f36efud",
+                "parent_id": "t1_f36drup",
+                "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36efud/",
+                "subreddit": "unpopularopinion",
+                "subreddit_name_prefixed": "r/unpopularopinion",
+                "ups": 16,
+              },
+            ],
+            "created_utc": 1570710788,
+            "depth": 2,
+            "downs": 0,
+            "id": "t1_f36drup",
+            "parent_id": "t1_f35y9gp",
+            "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36drup/",
+            "subreddit": "unpopularopinion",
+            "subreddit_name_prefixed": "r/unpopularopinion",
+            "ups": 32,
+          },
+        ],
+        "created_utc": 1570697457,
+        "depth": 1,
+        "downs": 0,
+        "id": "t1_f35y9gp",
+        "parent_id": "t1_f35nn9e",
+        "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35y9gp/",
+        "subreddit": "unpopularopinion",
+        "subreddit_name_prefixed": "r/unpopularopinion",
+        "ups": 638,
+      },
+      Object {
+        "author": "HansenTakeASeat",
+        "body": "Am I pregegnant or am I ok?",
+        "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Am I pregegnant or am I ok?&lt;/p&gt;
+&lt;/div&gt;",
+        "children": Array [
+          Object {
+            "author": "_Noot_Noot",
+            "body": "Can you get.....PREGANTE",
+            "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Can you get.....PREGANTE&lt;/p&gt;
+&lt;/div&gt;",
+            "children": Array [
+              Object {
+                "author": "Macho_Mans_Ghost",
+                "body": "#AM I GREGNANT?!",
+                "body_html": "&lt;div class=\\"md\\"&gt;&lt;h1&gt;AM I GREGNANT?!&lt;/h1&gt;
+&lt;/div&gt;",
+                "created_utc": 1570711616,
+                "depth": 3,
+                "downs": 0,
+                "id": "t1_f36fubr",
+                "parent_id": "t1_f36daww",
+                "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36fubr/",
+                "subreddit": "unpopularopinion",
+                "subreddit_name_prefixed": "r/unpopularopinion",
+                "ups": 29,
+              },
+            ],
+            "created_utc": 1570710595,
+            "depth": 2,
+            "downs": 0,
+            "id": "t1_f36daww",
+            "parent_id": "t1_f361yrc",
+            "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36daww/",
+            "subreddit": "unpopularopinion",
+            "subreddit_name_prefixed": "r/unpopularopinion",
+            "ups": 32,
+          },
+        ],
+        "created_utc": 1570703350,
+        "depth": 1,
+        "downs": 0,
+        "id": "t1_f361yrc",
+        "parent_id": "t1_f35nn9e",
+        "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f361yrc/",
+        "subreddit": "unpopularopinion",
+        "subreddit_name_prefixed": "r/unpopularopinion",
+        "ups": 56,
+      },
+    ],
+    "created_utc": 1570683149,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35nn9e/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 2233,
+  },
+  Object {
+    "author": "OceLawless",
+    "body": "I'm gonna try this tonight op, and if it's shit I will come for you.
+
+Edit: just got home. Getting in shower now.
+
+Edit 2 electric boogaloo: risky click of the day. 
+[No bamboozle](https://imgur.com/a/u1C215L)
+
+Edit 3: you!!!  I declare shenanigans.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;I&amp;#39;m gonna try this tonight op, and if it&amp;#39;s shit I will come for you.&lt;/p&gt;
+
+&lt;p&gt;Edit: just got home. Getting in shower now.&lt;/p&gt;
+
+&lt;p&gt;Edit 2 electric boogaloo: risky click of the day. 
+&lt;a href=\\"https://imgur.com/a/u1C215L\\"&gt;No bamboozle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Edit 3: you!!!  I declare shenanigans.&lt;/p&gt;
+&lt;/div&gt;",
+    "children": Array [
+      Object {
+        "author": "[deleted]",
+        "body": "[deleted]",
+        "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;
+&lt;/div&gt;",
+        "children": Array [
+          Object {
+            "author": "OceLawless",
+            "body": "You, sonofabitch.",
+            "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;You, sonofabitch.&lt;/p&gt;
+&lt;/div&gt;",
+            "created_utc": 1570725030,
+            "depth": 2,
+            "downs": 0,
+            "id": "t1_f37esup",
+            "parent_id": "t1_f35ltpb",
+            "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f37esup/",
+            "subreddit": "unpopularopinion",
+            "subreddit_name_prefixed": "r/unpopularopinion",
+            "ups": 10,
+          },
+        ],
+        "created_utc": 1570681556,
+        "depth": 1,
+        "downs": 0,
+        "id": "t1_f35ltpb",
+        "parent_id": "t1_f35kuhk",
+        "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35ltpb/",
+        "subreddit": "unpopularopinion",
+        "subreddit_name_prefixed": "r/unpopularopinion",
+        "ups": 136,
+      },
+      Object {
+        "author": "DaSwagCow",
+        "body": "So?",
+        "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;So?&lt;/p&gt;
+&lt;/div&gt;",
+        "children": Array [
+          Object {
+            "author": "Killahcamcam",
+            "body": "It's shit.",
+            "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;It&amp;#39;s shit.&lt;/p&gt;
+&lt;/div&gt;",
+            "created_utc": 1570691417,
+            "depth": 2,
+            "downs": 0,
+            "id": "t1_f35uh0q",
+            "parent_id": "t1_f35tfxh",
+            "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35uh0q/",
+            "subreddit": "unpopularopinion",
+            "subreddit_name_prefixed": "r/unpopularopinion",
+            "ups": 75,
+          },
+          Object {
+            "author": "OceLawless",
+            "body": "It's 3pm where I am. So still at work
+
+
+Edit:sorry lads I'm still at a bar. I will update ASAP no bamboozle.",
+            "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;It&amp;#39;s 3pm where I am. So still at work&lt;/p&gt;
+
+&lt;p&gt;Edit:sorry lads I&amp;#39;m still at a bar. I will update ASAP no bamboozle.&lt;/p&gt;
+&lt;/div&gt;",
+            "created_utc": 1570694504,
+            "depth": 2,
+            "downs": 0,
+            "id": "t1_f35wht6",
+            "parent_id": "t1_f35tfxh",
+            "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35wht6/",
+            "subreddit": "unpopularopinion",
+            "subreddit_name_prefixed": "r/unpopularopinion",
+            "ups": 23,
+          },
+        ],
+        "created_utc": 1570690006,
+        "depth": 1,
+        "downs": 0,
+        "id": "t1_f35tfxh",
+        "parent_id": "t1_f35kuhk",
+        "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35tfxh/",
+        "subreddit": "unpopularopinion",
+        "subreddit_name_prefixed": "r/unpopularopinion",
+        "ups": 33,
+      },
+    ],
+    "created_utc": 1570680701,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35kuhk/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 263,
+  },
+]
+`;
+
+exports[`Utility function tests snapshot test onProcessComments 1`] = `
+Array [
+  Object {
+    "author": "OceLawless",
+    "body": "You, sonofabitch.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;You, sonofabitch.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570725030,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f37esup",
+    "parent_id": "t1_f35ltpb",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f37esup/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 10,
+  },
+  Object {
+    "author": "Sazzybee",
+    "body": "Good lord, I wanted to down vote this but realised you're the messenger, we don't shoot the messenger",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Good lord, I wanted to down vote this but realised you&amp;#39;re the messenger, we don&amp;#39;t shoot the messenger&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570711829,
+    "depth": 3,
+    "downs": 0,
+    "id": "t1_f36ge9a",
+    "parent_id": "t1_f369ye5",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36ge9a/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 286,
+  },
+  Object {
+    "author": "Macho_Mans_Ghost",
+    "body": "#AM I GREGNANT?!",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;h1&gt;AM I GREGNANT?!&lt;/h1&gt;
+&lt;/div&gt;",
+    "created_utc": 1570711616,
+    "depth": 3,
+    "downs": 0,
+    "id": "t1_f36fubr",
+    "parent_id": "t1_f36daww",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36fubr/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 29,
+  },
+  Object {
+    "author": "ShitOnMyArsehole",
+    "body": "Yeah but you don't purposely go to bed in jeans like the poster did",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Yeah but you don&amp;#39;t purposely go to bed in jeans like the poster did&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570711069,
+    "depth": 3,
+    "downs": 0,
+    "id": "t1_f36efud",
+    "parent_id": "t1_f36drup",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36efud/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 16,
+  },
+  Object {
+    "author": "bellowingbullfinches",
+    "body": "Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570710788,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f36drup",
+    "parent_id": "t1_f35y9gp",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36drup/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 32,
+  },
+  Object {
+    "author": "_Noot_Noot",
+    "body": "Can you get.....PREGANTE",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Can you get.....PREGANTE&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570710595,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f36daww",
+    "parent_id": "t1_f361yrc",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36daww/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 32,
+  },
+  Object {
+    "author": "nikithb",
+    "body": "Or the guy who eats his cereal with water",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Or the guy who eats his cereal with water&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570709099,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f369ye5",
+    "parent_id": "t1_f35y9gp",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f369ye5/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 551,
+  },
+  Object {
+    "author": "HansenTakeASeat",
+    "body": "Am I pregegnant or am I ok?",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Am I pregegnant or am I ok?&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570703350,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f361yrc",
+    "parent_id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f361yrc/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 56,
+  },
+  Object {
+    "author": "ShitOnMyArsehole",
+    "body": "Or the guy who likes sleeping in jeans
+
+Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Or the guy who likes sleeping in jeans&lt;/p&gt;
+
+&lt;p&gt;Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570697457,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f35y9gp",
+    "parent_id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35y9gp/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 638,
+  },
+  Object {
+    "author": "OceLawless",
+    "body": "It's 3pm where I am. So still at work
+
+
+Edit:sorry lads I'm still at a bar. I will update ASAP no bamboozle.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;It&amp;#39;s 3pm where I am. So still at work&lt;/p&gt;
+
+&lt;p&gt;Edit:sorry lads I&amp;#39;m still at a bar. I will update ASAP no bamboozle.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570694504,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f35wht6",
+    "parent_id": "t1_f35tfxh",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35wht6/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 23,
+  },
+  Object {
+    "author": "RandomName01",
+    "body": "Bruh",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Bruh&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570693670,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35vz2f",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35vz2f/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 1,
+  },
+  Object {
+    "author": "Killahcamcam",
+    "body": "It's shit.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;It&amp;#39;s shit.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570691417,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f35uh0q",
+    "parent_id": "t1_f35tfxh",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35uh0q/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 75,
+  },
+  Object {
+    "author": "DaSwagCow",
+    "body": "So?",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;So?&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570690006,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f35tfxh",
+    "parent_id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35tfxh/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 33,
+  },
+  Object {
+    "author": "shantanu011",
+    "body": "97% Disagree it's the most unpopular opinion I've seen here after that guy who wanted to be pregnant",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;97% Disagree it&amp;#39;s the most unpopular opinion I&amp;#39;ve seen here after that guy who wanted to be pregnant&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570683149,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35nn9e/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 2233,
+  },
+  Object {
+    "author": "[deleted]",
+    "body": "[deleted]",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570681556,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f35ltpb",
+    "parent_id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35ltpb/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 136,
+  },
+  Object {
+    "author": "OceLawless",
+    "body": "I'm gonna try this tonight op, and if it's shit I will come for you.
+
+Edit: just got home. Getting in shower now.
+
+Edit 2 electric boogaloo: risky click of the day. 
+[No bamboozle](https://imgur.com/a/u1C215L)
+
+Edit 3: you!!!  I declare shenanigans.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;I&amp;#39;m gonna try this tonight op, and if it&amp;#39;s shit I will come for you.&lt;/p&gt;
+
+&lt;p&gt;Edit: just got home. Getting in shower now.&lt;/p&gt;
+
+&lt;p&gt;Edit 2 electric boogaloo: risky click of the day. 
+&lt;a href=\\"https://imgur.com/a/u1C215L\\"&gt;No bamboozle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Edit 3: you!!!  I declare shenanigans.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570680701,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35kuhk/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 263,
+  },
+]
+`;
+
+exports[`Utility function tests snapshot test onProcessComments 2`] = `
+Array [
+  Object {
+    "author": "OceLawless",
+    "body": "I'm gonna try this tonight op, and if it's shit I will come for you.
+
+Edit: just got home. Getting in shower now.
+
+Edit 2 electric boogaloo: risky click of the day. 
+[No bamboozle](https://imgur.com/a/u1C215L)
+
+Edit 3: you!!!  I declare shenanigans.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;I&amp;#39;m gonna try this tonight op, and if it&amp;#39;s shit I will come for you.&lt;/p&gt;
+
+&lt;p&gt;Edit: just got home. Getting in shower now.&lt;/p&gt;
+
+&lt;p&gt;Edit 2 electric boogaloo: risky click of the day. 
+&lt;a href=\\"https://imgur.com/a/u1C215L\\"&gt;No bamboozle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Edit 3: you!!!  I declare shenanigans.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570680701,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35kuhk/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 263,
+  },
+  Object {
+    "author": "[deleted]",
+    "body": "[deleted]",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;[deleted]&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570681556,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f35ltpb",
+    "parent_id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35ltpb/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 136,
+  },
+  Object {
+    "author": "shantanu011",
+    "body": "97% Disagree it's the most unpopular opinion I've seen here after that guy who wanted to be pregnant",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;97% Disagree it&amp;#39;s the most unpopular opinion I&amp;#39;ve seen here after that guy who wanted to be pregnant&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570683149,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35nn9e/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 2233,
+  },
+  Object {
+    "author": "DaSwagCow",
+    "body": "So?",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;So?&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570690006,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f35tfxh",
+    "parent_id": "t1_f35kuhk",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35tfxh/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 33,
+  },
+  Object {
+    "author": "Killahcamcam",
+    "body": "It's shit.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;It&amp;#39;s shit.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570691417,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f35uh0q",
+    "parent_id": "t1_f35tfxh",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35uh0q/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 75,
+  },
+  Object {
+    "author": "RandomName01",
+    "body": "Bruh",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Bruh&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570693670,
+    "depth": 0,
+    "downs": 0,
+    "id": "t1_f35vz2f",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35vz2f/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 1,
+  },
+  Object {
+    "author": "OceLawless",
+    "body": "It's 3pm where I am. So still at work
+
+
+Edit:sorry lads I'm still at a bar. I will update ASAP no bamboozle.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;It&amp;#39;s 3pm where I am. So still at work&lt;/p&gt;
+
+&lt;p&gt;Edit:sorry lads I&amp;#39;m still at a bar. I will update ASAP no bamboozle.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570694504,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f35wht6",
+    "parent_id": "t1_f35tfxh",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35wht6/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 23,
+  },
+  Object {
+    "author": "ShitOnMyArsehole",
+    "body": "Or the guy who likes sleeping in jeans
+
+Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Or the guy who likes sleeping in jeans&lt;/p&gt;
+
+&lt;p&gt;Edit: to everyone commenting, I meant the dude liked to get into bed at night with the duvet on with jeans, not just taking a nap&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570697457,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f35y9gp",
+    "parent_id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f35y9gp/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 638,
+  },
+  Object {
+    "author": "HansenTakeASeat",
+    "body": "Am I pregegnant or am I ok?",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Am I pregegnant or am I ok?&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570703350,
+    "depth": 1,
+    "downs": 0,
+    "id": "t1_f361yrc",
+    "parent_id": "t1_f35nn9e",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f361yrc/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 56,
+  },
+  Object {
+    "author": "nikithb",
+    "body": "Or the guy who eats his cereal with water",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Or the guy who eats his cereal with water&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570709099,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f369ye5",
+    "parent_id": "t1_f35y9gp",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f369ye5/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 551,
+  },
+  Object {
+    "author": "_Noot_Noot",
+    "body": "Can you get.....PREGANTE",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Can you get.....PREGANTE&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570710595,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f36daww",
+    "parent_id": "t1_f361yrc",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36daww/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 32,
+  },
+  Object {
+    "author": "bellowingbullfinches",
+    "body": "Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Sleeping in jeans is fine on a couch or something, but not good in a bed under sheets.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570710788,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f36drup",
+    "parent_id": "t1_f35y9gp",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36drup/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 32,
+  },
+  Object {
+    "author": "ShitOnMyArsehole",
+    "body": "Yeah but you don't purposely go to bed in jeans like the poster did",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Yeah but you don&amp;#39;t purposely go to bed in jeans like the poster did&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570711069,
+    "depth": 3,
+    "downs": 0,
+    "id": "t1_f36efud",
+    "parent_id": "t1_f36drup",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36efud/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 16,
+  },
+  Object {
+    "author": "Macho_Mans_Ghost",
+    "body": "#AM I GREGNANT?!",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;h1&gt;AM I GREGNANT?!&lt;/h1&gt;
+&lt;/div&gt;",
+    "created_utc": 1570711616,
+    "depth": 3,
+    "downs": 0,
+    "id": "t1_f36fubr",
+    "parent_id": "t1_f36daww",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36fubr/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 29,
+  },
+  Object {
+    "author": "Sazzybee",
+    "body": "Good lord, I wanted to down vote this but realised you're the messenger, we don't shoot the messenger",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;Good lord, I wanted to down vote this but realised you&amp;#39;re the messenger, we don&amp;#39;t shoot the messenger&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570711829,
+    "depth": 3,
+    "downs": 0,
+    "id": "t1_f36ge9a",
+    "parent_id": "t1_f369ye5",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f36ge9a/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 286,
+  },
+  Object {
+    "author": "OceLawless",
+    "body": "You, sonofabitch.",
+    "body_html": "&lt;div class=\\"md\\"&gt;&lt;p&gt;You, sonofabitch.&lt;/p&gt;
+&lt;/div&gt;",
+    "created_utc": 1570725030,
+    "depth": 2,
+    "downs": 0,
+    "id": "t1_f37esup",
+    "parent_id": "t1_f35ltpb",
+    "permalink": "/r/unpopularopinion/comments/dfqxf8/taking_showers_with_your_socks_on_is_so_much/f37esup/",
+    "subreddit": "unpopularopinion",
+    "subreddit_name_prefixed": "r/unpopularopinion",
+    "ups": 10,
+  },
+]
+`;

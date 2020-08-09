@@ -41,4 +41,19 @@ describe('Post details page', () => {
       commentsList.should('have.length', comments.length);
     });
   });
+
+  it('Check for sort by functionality', () => {
+    const dropdown = cy.getByTestId('dropdown-value');
+    dropdown.should('have.text', 'Latest');
+
+    dropdown.click();
+
+    const dropdownMenus = cy.getByTestId('dropdown-item');
+    const secondMenu = dropdownMenus.last();
+
+    secondMenu.click();
+    const dropdownAfterChange = cy.getByTestId('dropdown-value');
+    dropdownAfterChange.should('have.text', 'Oldest');
+
+  });
 });

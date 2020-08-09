@@ -7,10 +7,22 @@ import { useStyles } from './CommentsList.styles';
 import { getItem, setItem } from '../../utils/localStorage';
 import Button from '../Button';
 import { reducer, Actions } from './CommenList.reducer';
+import Dropdown from '../Dropdown';
+
+const defaultOption = {
+  label: 'Latest',
+  value: 'latest',
+};
+
+const sortOptions = [ defaultOption, {
+  label: 'Oldest',
+  value: 'oldest',
+}];
 
 const initialState = {
   deletedComments: [],
   processedComments: [],
+  selectedSortBy: defaultOption,
 };
 /**
  * This lists the comments in ascending order(with respect to created timestamp)
@@ -18,11 +30,11 @@ const initialState = {
  */
 const CommentsList = ({ comments, showComments, postId }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  const { processedComments, deletedComments } = state;
+  const { processedComments, deletedComments, selectedSortBy } = state;
   const styles = useStyles({
     showComments,
   });
-  
+
   const intializeCommentsList = () => {
     const organisedComments = organizeComments(comments.concat([]));
     dispatch({
@@ -55,15 +67,31 @@ const CommentsList = ({ comments, showComments, postId }) => {
     });
   };
 
+  const onSelectSortMenu = (selectedSortBy) => {
+    dispatch({
+      type: Actions.SORT_BY_CHANGED,
+      selectedSortBy,
+    });
+  };
+
   return (
     <div className={styles.commentsListWrapper} data-testid="comments-list-wrapper">
+      <div className={styles.dropdownWrapper}>
+        <Dropdown
+          label="Sort By"
+          options={sortOptions}
+          defaultOption={defaultOption}
+          onSelect={onSelectSortMenu}
+        />
+      </div>
       {
-        onProcessComments(processedComments, deletedComments).map(comment => (
+        onProcessComments(processedComments, deletedComments, selectedSortBy).map(comment => (
           <CommentItem
             key={comment.id}
             comment={comment}
             postId={postId}
             onRefreshComments={onRefreshComments}
+            selectedSortBy={selectedSortBy}
           />
         ))
       }

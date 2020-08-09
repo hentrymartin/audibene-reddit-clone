@@ -11,7 +11,7 @@ import Icon from '../Icon';
 import { getItem, setItem } from '../../utils/localStorage';
 import { useResponsive } from '../../utils/useResponsive';
 
-const CommentItem = ({comment, postId, onRefreshComments}) => {
+const CommentItem = ({comment, postId, onRefreshComments, selectedSortBy}) => {
   const { id } = comment;
   const { depth } = comment;
   const viewport = useResponsive();
@@ -39,7 +39,7 @@ const CommentItem = ({comment, postId, onRefreshComments}) => {
         <span data-testid="score-label">{getScore(comment.ups)}</span>
         <span> - {createdTime.from(now)}</span>
       </div>
-      <div className={styles.commentBody}>
+      <div className={styles.commentBody} data-testid={`comment-body-${id}`}>
         {comment.body}
       </div>
       <Icon
@@ -51,12 +51,13 @@ const CommentItem = ({comment, postId, onRefreshComments}) => {
         data-testid={`delete-icon-${id}`}
       />
       {
-        comment.children && onProcessComments(comment.children, deletedComments).map((innerComment) => (
+        comment.children && onProcessComments(comment.children, deletedComments, selectedSortBy).map((innerComment) => (
           <CommentItem
             key={innerComment.id}
             comment={innerComment}
             postId={postId}
             onRefreshComments={onRefreshComments}
+            selectedSortBy={selectedSortBy}
           />
         ))
       }
@@ -68,12 +69,17 @@ CommentItem.propTypes = {
   comment: Comment,
   postId: PropTypes.string,
   onRefreshComments: PropTypes.func,
+  selectedSortBy: PropTypes.shape({
+    value: PropTypes.string,
+    label: PropTypes.string,
+  })
 };
 
 CommentItem.defaultProps = {
   comment: {},
   postId: '',
   onRefreshComments: () => {},
+  selectedSortBy: {},
 };
 
 export default CommentItem;

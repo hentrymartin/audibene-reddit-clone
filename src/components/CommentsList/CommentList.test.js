@@ -1,5 +1,5 @@
 import React from 'react';
-import { cleanup, fireEvent, act } from '@testing-library/react';
+import { cleanup, fireEvent, act, within } from '@testing-library/react';
 
 import CommentList from '.';
 import { renderWithRouter } from '../../utils/testing';
