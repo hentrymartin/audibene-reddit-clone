@@ -28,3 +28,14 @@
 - Router definition is in `src/routes` folder
 
 - cypress test cases are created inside `cypress/integration` folder
+
+
+### functionalities implemented
+
+- get post details and render it in /post-details route
+- comments/inner comments implemented
+- delete comments implemented
+- reset deleted comments(to see all the original comments)
+- sort by latest/oldest comment
+- unit testing using react-testing-library
+- end to end testing using cypress
