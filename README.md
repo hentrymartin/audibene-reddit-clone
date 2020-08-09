@@ -16,6 +16,7 @@
 - react-testing-library for unit testing
 - react-jss as CSS in JS library
 - cypress for e2e testing
+- node for serving post details json
 
 
 ### Folder structure explanation
