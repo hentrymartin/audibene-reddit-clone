@@ -5,7 +5,7 @@ export const useStyles = createUseStyles(theme => ({
   commentItemWrapper: {
     borderLeft: ({depth}) => depth > 0 ? `1px solid ${theme.commentBorderLeftColor}` : 'none',
     padding: '10px 0 10px 10px',
-    paddingLeft: ({depth, viewport}) => depth * CommentStepsPadding[viewport],
+    paddingLeft: ({viewport}) => CommentStepsPadding[viewport],
     margin: '10px 0',
     fontSize: 14,
     position: 'relative',
