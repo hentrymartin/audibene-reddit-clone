@@ -26,7 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-server": "nodemon ./server/index.js"
+    "start-server": "nodemon ./server/index.js",
+    "e2e-test": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -44,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^4.12.1",
     "msw": "^0.20.3",
     "nodemon": "^2.0.4"
   }
