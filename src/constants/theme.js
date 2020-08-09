@@ -1,0 +1,15 @@
+export const Theme = {
+  buttonHoverColor: '#6fc3bc',
+  buttonHoverBorderColor: '#3d847e',
+  commentBorderLeftColor: '#EDEDED',
+  commentAuthorNameColor: '#36A3F0',
+  postBackgroundColor: '#F1F1F1',
+  postTextColor: 'rgba(0,0,0,0.6)',
+  commentsCountColor: '#2C2C2C',
+  commentsCountHoverColor: 'rgb(54, 163, 240)',
+  spinnerColor: '#00BFFF',
+  postDetailsBackgroundColor: '#FAFAFA',
+  postWrapperBoxShadow: '0 6px 10px 0 rgba(0,0,0,0.14)',
+  redditNameColor: 'rgba(88,88,88,0.87)',
+  scoreColor: '#2C2C2C',
+};
