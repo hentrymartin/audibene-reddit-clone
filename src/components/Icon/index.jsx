@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
+/**
+ * This component helps in showing svg image as an icon.
+ * @param {*} param0 
+ */
 const Icon = ({alt, defaultSrc, hoverSrc, ...rest}) => {
 
   const [src, setSrc] = useState(defaultSrc);

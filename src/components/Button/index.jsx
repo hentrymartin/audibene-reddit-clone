@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 
 import { useStyles } from './Button.styles';
 
+/**
+ * Generic button component
+ * @param {*} param0 
+ */
 const Button = ({ label, onClick, className, ...rest }) => {
 
   const styles = useStyles();

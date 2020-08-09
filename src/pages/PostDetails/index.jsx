@@ -13,6 +13,10 @@ const initialState = {
   isLoading: true,
 };
 
+/**
+ * PostDetails page is associated with /post-details route.
+ * It gets the postDetails object from the server and show it in the UI.
+ */
 const PostDetails = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { postDetails, showComments, isLoading } = state;

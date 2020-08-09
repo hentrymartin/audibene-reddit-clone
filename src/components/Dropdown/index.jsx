@@ -6,7 +6,11 @@ import DropdownIcon from '../../images/down-arrow.svg';
 
 import { useStyles } from './Dropdown.styles';
 
-
+/**
+ * Generic dropdown component. Gets the list of option and render it.
+ * When user clicks on the option, it is given back to the parent component as selected item.
+ * @param {*} param0 
+ */
 const Dropdown = ({ options, defaultOption, onSelect: onSelectItem, label }) => {
   const styles = useStyles();
   const [selectedValue, setSelectedValue] = useState({});

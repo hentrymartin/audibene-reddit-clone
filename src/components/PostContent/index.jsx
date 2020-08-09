@@ -7,6 +7,10 @@ import { PostContentTypes } from './PostContent.props';
 import { useStyles } from './PostContent.styles';
 import Icon from '../Icon';
 
+/**
+ * PostContent component is used to populate the content(post text and comments count) of the post
+ * @param {*} param0 
+ */
 const PostContent = ({postDetails, onShowComments}) => {
   const styles = useStyles();
   return (

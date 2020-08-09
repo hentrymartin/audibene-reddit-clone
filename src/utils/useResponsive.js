@@ -11,6 +11,9 @@ export const getViewport = () => {
 	return 'DESKTOP';
 };
 
+/**
+ * Custom hook to get the current viewport on window resize.
+ */
 export const useResponsive = () => {
   const [viewport, setViewport] = useState(getViewport());
 

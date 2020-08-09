@@ -11,6 +11,10 @@ import Icon from '../Icon';
 import { getItem, setItem } from '../../utils/localStorage';
 import { useResponsive } from '../../utils/useResponsive';
 
+/**
+ * Comment Item component. It consumes comment object and render comment body.
+ * If the comment contains children then it recursively render the inner comments.
+ */
 const CommentItem = ({comment, postId, onRefreshComments, selectedSortBy}) => {
   const { id } = comment;
   const { depth } = comment;

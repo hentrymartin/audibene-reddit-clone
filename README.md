@@ -6,6 +6,13 @@
   yarn
   yarn start-server
   yarn start
+```
+
+- go to `http://localhost:3000` to see the application
+
+You can also run the unit and e2e test cases.
+
+```
   yarn test
   yarn e2e-test
 ```
@@ -13,6 +20,7 @@
 ### Tech stack
 
 - react
+- dayjs for datetime manipulation
 - react-testing-library for unit testing
 - react-jss as CSS in JS library
 - cypress for e2e testing
@@ -37,5 +45,6 @@
 - delete comments implemented
 - reset deleted comments(to see all the original comments)
 - sort by latest/oldest comment
+- Show/Hide comments section on clicking comments count
 - unit testing using react-testing-library
 - end to end testing using cypress
