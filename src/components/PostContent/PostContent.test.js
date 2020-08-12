@@ -8,7 +8,7 @@ describe('Post Content Component', () => {
   const onShowComments = jest.fn();
 
   it('Check for comments count', () => {
-    const { getByText } = render(<PostContent postDetails={postDetails} onShowComments={onShowComments} />);
+    const { getByText } = render(<PostContent postDetails={postDetails} onShowComments={onShowComments} commentsCount={postDetails.comments.length} />);
     expect(getByText(`${comments.length} comments`)).toBeInTheDocument();
   });
 

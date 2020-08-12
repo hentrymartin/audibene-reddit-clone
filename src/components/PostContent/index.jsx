@@ -11,7 +11,7 @@ import Icon from '../Icon';
  * PostContent component is used to populate the content(post text and comments count) of the post
  * @param {*} param0 
  */
-const PostContent = ({postDetails, onShowComments}) => {
+const PostContent = ({postDetails, onShowComments, commentsCount}) => {
   const styles = useStyles();
   return (
     <div className={styles.postDetailsText}>
@@ -22,7 +22,7 @@ const PostContent = ({postDetails, onShowComments}) => {
           alt="comment-icon"
           defaultSrc={CommentIcon}
         />
-        {`${postDetails.comments && postDetails.comments.length} comments`} 
+        {`${commentsCount} comments`} 
       </div>
     </div>
   );
@@ -31,11 +31,13 @@ const PostContent = ({postDetails, onShowComments}) => {
 PostContent.propTypes = {
   postDetails: PostContentTypes,
   onShowComments: PropTypes.func,
+  commentsCount: PropTypes.number,
 };
 
 PostContent.defaultProps = {
   postDetails: {},
   onShowComments: () => {},
+  commentsCount: 0,
 };
 
 export default PostContent;
