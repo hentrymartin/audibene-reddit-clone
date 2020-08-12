@@ -2,6 +2,7 @@ export const Actions = {
   SET_POST_DETAILS: 'SET_POST_DETAILS',
   TOGGLE_SHOW_COMMENTS: 'TOGGLE_SHOW_COMMENTS',
   SET_LOADING: 'SET_LOADING',
+  SET_COMMENTS_COUNT: 'SET_COMMENTS_COUNT',
 };
 
 export const reducer = (state, action) => {
@@ -21,6 +22,11 @@ export const reducer = (state, action) => {
       return {
         ...state,
         isLoading: action.isLoading,
+      };
+    case Actions.SET_COMMENTS_COUNT:
+      return {
+        ...state,
+        commentsCount: action.commentsCount,
       };
     default:
       return state;

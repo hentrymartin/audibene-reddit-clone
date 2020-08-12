@@ -17,4 +17,10 @@ export const useStyles = createUseStyles({
     right: '0px',
     bottom: '-45px',
   },
+  emptyText: {
+    fontSize: 12,
+    fontStyle: 'italic',
+    textAlign: 'center',
+    margin: '30px 0',
+  },
 });

@@ -28,7 +28,7 @@ const initialState = {
  * This lists the comments in ascending order(with respect to created timestamp)
  * @param {*} param0 
  */
-const CommentsList = ({ comments, showComments, postId }) => {
+const CommentsList = ({ comments, showComments, postId, onCommentListUpdated }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { processedComments, deletedComments, selectedSortBy } = state;
   const styles = useStyles({
@@ -41,6 +41,8 @@ const CommentsList = ({ comments, showComments, postId }) => {
       type: Actions.UPDATE_PROCESSED_COMMENTS,
       processedComments: organisedComments,
     });
+
+    onCommentListUpdated(organisedComments);
   };
 
   const setDeletedComments = () => {
@@ -65,6 +67,8 @@ const CommentsList = ({ comments, showComments, postId }) => {
       type: Actions.UPDATE_DELETED_COMMENTS,
       deletedComments: [],
     });
+
+    onCommentListUpdated(processedComments);
   };
 
   const onSelectSortMenu = (selectedSortBy) => {
@@ -73,6 +77,8 @@ const CommentsList = ({ comments, showComments, postId }) => {
       selectedSortBy,
     });
   };
+
+  const filteredComments = onProcessComments(processedComments, deletedComments, selectedSortBy);
 
   return (
     <div className={styles.commentsListWrapper} data-testid="comments-list-wrapper">
@@ -85,7 +91,7 @@ const CommentsList = ({ comments, showComments, postId }) => {
         />
       </div>
       {
-        onProcessComments(processedComments, deletedComments, selectedSortBy).map(comment => (
+        filteredComments.map(comment => (
           <CommentItem
             key={comment.id}
             comment={comment}
@@ -94,6 +100,12 @@ const CommentsList = ({ comments, showComments, postId }) => {
             selectedSortBy={selectedSortBy}
           />
         ))
+      }
+
+      {
+        filteredComments.length === 0 && (
+          <div className={styles.emptyText}>Comments list is empty</div>
+        )
       }
 
       {
@@ -114,12 +126,14 @@ CommentsList.defaultProps = {
   comments: [],
   showComments: true,
   postId: '',
+  onCommentListUpdated: () => {},
 };
 
 CommentsList.propTypes = {
   comments: PropTypes.arrayOf(Comment),
   showComments: PropTypes.bool,
   postId: PropTypes.string,
+  onCommentListUpdated: PropTypes.func,
 };
 
 export default CommentsList;

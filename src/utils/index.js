@@ -62,3 +62,28 @@ export const onProcessComments = (comments = [], deletedComments = [], sortOrder
     return value;
   });
 };
+
+/**
+ * Iterate through all comments and find the count of the comments that are not part of deletedComments
+ * @param {*} comments 
+ * @param {*} deletedComments 
+ */
+export const getCommentsCount = (comments, deletedComments) => {
+  let count = 0;
+
+  const iterateComments = (comments) => {
+    for (let i = 0; i < comments.length; i++) {
+      const comment = comments[i];
+  
+      if (!deletedComments.includes(comment.id)) {
+        count += 1;
+        if (comment.children && comment.children.length > 0) {
+          iterateComments(comment.children);
+        }
+      }
+    }
+  };
+
+  iterateComments(comments);
+  return count;
+};
